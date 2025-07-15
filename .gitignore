@@ -22,3 +22,91 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# --------------------------
+# Hệ điều hành
+# --------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --------------------------
+# IDEs / Editors
+# --------------------------
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Eclipse
+.metadata/
+*.log
+*.tmp
+
+# --------------------------
+# Java / Spring Boot
+# --------------------------
+# Build output
+/target/
+/build/
+
+# Spring Boot DevTools restart folder
+.restart/
+
+# Logs
+*.log
+logs/
+
+# Application properties / secrets
+application*.yml
+application*.properties
+
+# --------------------------
+# Build tools
+# --------------------------
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+**/target/
+
+# Gradle
+.gradle/
+build/
+
+# --------------------------
+# Node / React
+# --------------------------
+# Node modules
+/node_modules/
+
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Build output
+/dist/
+/build/
+/coverage/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --------------------------
+# Miscellaneous
+# --------------------------
+# Temporary files
+*.tmp
+*.swp
